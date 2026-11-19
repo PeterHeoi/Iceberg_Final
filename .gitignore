@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# notebook 备份
+*.ipynb.bak
+
+# WorkBuddy agent 数据
+.workbuddy/
+
+# 大型数据 JSON（超过 GitHub 100MB 单文件上限，从 Kaggle 竞赛页下载后放入 data/）
+data/*.json
+
+# 运行产物（由 notebook 重新生成）
+outputs/

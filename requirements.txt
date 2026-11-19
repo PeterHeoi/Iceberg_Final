@@ -1,0 +1,12 @@
+# Python 3.12. CUDA users can install their matching PyTorch build first.
+numpy==2.5.2
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+torch==2.14.1
+torchvision==0.29.1
+ipython==9.17.1
+ipykernel==7.4.0
+jupyterlab==4.6.4
+# The project includes its original Windows x64 XGBoost build.
+xgboost==3.4.1 ; sys_platform != "win32" or (platform_machine != "AMD64" and platform_machine != "x86_64")
